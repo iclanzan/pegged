@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Pegged</title>
+    <link href="Pegged.css" rel="stylesheet" media="all" />
+  </head>
+
+  <body id="body">
+    <article id="front">
+      <iframe id="iframe"></iframe>
+      <div id="i"></div>
+    </article>
+    <aside id="back">
+      <section>
+        <table><tbody>
+          <tr>
+            <td class="label"><label for="url">URL:</label></td>
+            <td><input class="big" type="url" id="url" placeholder="http://example.com/"/></td>
+          </tr>
+          <tr>
+            <td class="label"><label for="width">Width:</label></td>
+            <td><input type="number" min="300" id="width"/> px</td>
+          </tr>
+          <tr>
+            <td class="label"><label for="height">Height:</label></td>
+            <td><input type="number" min="146" id="height"/> px</td>
+          </tr>
+        </tbody></table>
+      </section>
+      <div id="done"></div>
+    </aside>
+
+    <div id="alert"></div>
+
+    <script src='/System/Library/WidgetResources/AppleClasses/AppleButton.js'></script>
+    <script src='/System/Library/WidgetResources/AppleClasses/AppleInfoButton.js'></script>
+    <script src='/System/Library/WidgetResources/AppleClasses/AppleAnimator.js'></script>
+
+    <script src='Pegged.js'></script>
+
+  </body>
+</html>
