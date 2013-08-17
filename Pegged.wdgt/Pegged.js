@@ -4,7 +4,7 @@
 
   var defaults = {
     url: '',
-    width: 320,
+    width: 300,
     height: 146
   };
 
