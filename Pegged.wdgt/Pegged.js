@@ -178,6 +178,7 @@
 
   new AppleInfoButton($('i'), $('front'), 'white', 'black', flip);
 
+  resize();
   if (prefs('url')) { frame(prefs('url')); }
   else { setTimeout(flip, 600); }
 
